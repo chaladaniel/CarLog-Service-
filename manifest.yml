@@ -1,0 +1,6 @@
+applications:
+  - name: carLog-App
+    path: target/car-log-0.0.1-SNAPSHOT.jar
+    domain: cfapps.io
+    memory: 1000M
+    instances: 1

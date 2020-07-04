@@ -85,6 +85,17 @@ public class AtmLocation {
 	public void setZipCode(String zipCode) {
 		this.zipCode = zipCode;
 	}
-	
-	
+
+
+	@Override
+	public String toString() {
+		return " {" +
+				"atmLocationId=" + atmLocationId +
+				", addressLine1='" + addressLine1 + '\'' +
+				", addressLine2='" + addressLine2 + '\'' +
+				", city='" + city + '\'' +
+				", state='" + state + '\'' +
+				", zipCode='" + zipCode + '\'' +
+				'}';
+	}
 }
